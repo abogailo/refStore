@@ -1,5 +1,5 @@
 require './config/environment'
-class ApplicatioController < Sinatra::Base
+class ApplicationController < Sinatra::Base
 
     configure do
        set :public_folder, 'public'
@@ -9,7 +9,7 @@ class ApplicatioController < Sinatra::Base
     end
 
     get '/' do
-        "Hello World!"
+        "Heller PING"
     end
 
 end
